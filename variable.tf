@@ -27,6 +27,3 @@ variable "rule_priority" {
     default     = 10
   
 }
-variable "rule_header_url" {
-  
-}
