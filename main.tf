@@ -29,7 +29,7 @@ resource "aws_instance" "main" {
   )
 }
 
-resource "terraform_data" "catalogue" {
+resource "terraform_data" "main" {
   triggers_replace = [
     aws_instance.main.id
   ]
